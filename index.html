@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trello Board</title>
+    <link rel="stylesheet" href="Style/trello.css" />
+  </head>
+  <body>
+    <div class="main__wrapper">
+      <div class="main__Wrapper__container">
+        <h1 class="container__title">To-do</h1>
+        <button class="container__add">ADD CONTENT</button>
+        <button class="container__remove">DELETE</button>
+      </div>
+      <div class="main__Wrapper__container">
+        <h1 class="container__title">In-progress</h1>
+        <button class="container__add">ADD CONTENT</button>
+        <button class="container__remove">DELETE</button>
+      </div>
+      <div class="main__Wrapper__container">
+        <h1 class="container__title">Done</h1>
+        <button class="container__add">ADD CONTENT</button>
+        <button class="container__remove">DELETE</button>
+      </div>
+    </div>
+    <div class="header">
+      <button class="header__add__container">ADD CONTAINER</button>
+    </div>
+    <div class="add_container_modal_menu">
+      <textarea
+        cols="30"
+        rows="5"
+        class="modal_container_text"
+        placeholder="Title"
+      ></textarea>
+      <button class="modal_container_submit">SUBMIT</button>
+    </div>
+  </body>
+  <script src="app.js" defer></script>
+</html>
