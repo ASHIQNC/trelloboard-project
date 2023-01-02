@@ -121,13 +121,22 @@ body {
 
 .container__textbox {
   border: none;
-  width: 180px;
+  width: 215px;
   height: auto;
   padding: 10px;
 }
 .add__elements__textbox {
-  width: 15rem;
+  border: none;
+  width: 215px;
+  height: auto;
+  padding: 10px;
 }
+.add__elements__textbox:hover {
+  background-color: rgb(236, 236, 236);
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
 .container__button {
   border: none;
   border-radius: 50%;
